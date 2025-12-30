@@ -1,0 +1,1090 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:1c9:9ee:0:0:262:bab8",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141 Version/11.1.1 Safari/605.1.15,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state=ACTIVE",
+        "pageSize": 1000
+      }
+    },
+    "insertId": "atstwkemul2e",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-09T16:37:38.377319Z",
+    "severity": "INFO",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2025-10-09T16:37:38.719981504Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774/services/geminicloudassist.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/appoptimize.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/cloudaicompanion.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/recommender.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/cloudasset.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/appoptimize.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "services/cloudaicompanion.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "services/cloudasset.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "services/geminicloudassist.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "services/recommender.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/services",
+      "request": {
+        "parent": "projects/global-pagoda-472813-c0",
+        "serviceIds": [
+          "geminicloudassist.googleapis.com",
+          "cloudaicompanion.googleapis.com",
+          "cloudasset.googleapis.com",
+          "recommender.googleapis.com",
+          "appoptimize.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesRequest"
+      }
+    },
+    "insertId": "1qfj3lmd27up",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+        "project_id": "global-pagoda-472813-c0",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:49.475746Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1041769904774-03c0bda4-4d32-4f7c-9933-1f1417f8deec",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-10-10T18:35:50.384257671Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1041769904774/operations/acat.p2-1041769904774-03c0bda4-4d32-4f7c-9933-1f1417f8deec"
+    },
+    "insertId": "1x4yuace2hhl6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:50.040759Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-10T18:35:50.229029010Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774/services/appoptimize.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/appoptimize.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/cloudaicompanion.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudaicompanion.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/cloudasset.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudasset.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/geminicloudassist.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/geminicloudassist.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/services/recommender.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/recommender.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/services",
+      "request": {
+        "parent": "projects/global-pagoda-472813-c0",
+        "serviceIds": [
+          "geminicloudassist.googleapis.com",
+          "cloudaicompanion.googleapis.com",
+          "cloudasset.googleapis.com",
+          "recommender.googleapis.com",
+          "appoptimize.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesRequest"
+      },
+      "response": {
+        "services": [
+          {
+            "name": "projects/1041769904774/services/geminicloudassist.googleapis.com",
+            "config": {
+              "name": "geminicloudassist.googleapis.com",
+              "title": "Gemini Cloud Assist API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/1041769904774"
+          },
+          {
+            "name": "projects/1041769904774/services/cloudaicompanion.googleapis.com",
+            "config": {
+              "name": "cloudaicompanion.googleapis.com",
+              "title": "Gemini for Google Cloud API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/1041769904774"
+          },
+          {
+            "name": "projects/1041769904774/services/cloudasset.googleapis.com",
+            "config": {
+              "name": "cloudasset.googleapis.com",
+              "title": "Cloud Asset API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/1041769904774"
+          },
+          {
+            "name": "projects/1041769904774/services/recommender.googleapis.com",
+            "config": {
+              "name": "recommender.googleapis.com",
+              "title": "Recommender API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/1041769904774"
+          },
+          {
+            "name": "projects/1041769904774/services/appoptimize.googleapis.com",
+            "config": {
+              "name": "appoptimize.googleapis.com",
+              "title": "App Optimize API"
+            },
+            "state": "ENABLED",
+            "parent": "projects/1041769904774"
+          }
+        ],
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.BatchEnableServicesResponse"
+      }
+    },
+    "insertId": "-6vkdu3e21ipk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.BatchEnableServices",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:51.801668202Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1041769904774-03c0bda4-4d32-4f7c-9933-1f1417f8deec",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-10-10T18:35:51.801668202Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1041769904774/operations/acat.p2-1041769904774-03c0bda4-4d32-4f7c-9933-1f1417f8deec"
+    },
+    "insertId": "17kzzkje1a5bs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:53.294301Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-10T18:35:54.427175900Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-10-10T18:35:55.261592862Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudaicompanion.googleapis.com",
+      "methodName": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateDataSharingWithGoogleSetting",
+      "authorizationInfo": [
+        {
+          "resource": "projects/global-pagoda-472813-c0/locations/global",
+          "permission": "cloudaicompanion.dataSharingWithGoogleSettings.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/locations/global",
+      "request": {
+        "parent": "projects/global-pagoda-472813-c0/locations/global",
+        "dataSharingWithGoogleSettingId": "global-pagoda-472813-c0",
+        "@type": "type.googleapis.com/google.cloud.cloudaicompanion.v1.CreateDataSharingWithGoogleSettingRequest"
+      },
+      "response": {
+        "name": "projects/global-pagoda-472813-c0/locations/global/dataSharingWithGoogleSettings/global-pagoda-472813-c0",
+        "updateTime": "2025-10-10T18:35:56.812916002Z",
+        "createTime": "2025-10-10T18:35:56.812916002Z",
+        "@type": "type.googleapis.com/google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSetting"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1axlazac5ps",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "cloudaicompanion.googleapis.com",
+        "project_id": "global-pagoda-472813-c0",
+        "method": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateDataSharingWithGoogleSetting"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:55.236218735Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-10T18:35:57.589699755Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/global-pagoda-472813-c0",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/global-pagoda-472813-c0",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/global-pagoda-472813-c0",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/global-pagoda-472813-c0",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/cloudaicompanion.serviceAgent",
+              "member": "serviceAccount:service-1041769904774@gcp-sa-cloudaicompanion.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "resource": "1041769904774",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "policy": {
+          "etag": "BwY/T6vkXSg=",
+          "bindings": [
+            {
+              "members": [
+                "user:pxndaxan@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:101707447511404978856"
+              ],
+              "role": "roles/cloudaicompanion.serviceAgent"
+            }
+          ]
+        }
+      },
+      "response": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-1041769904774@gcp-sa-cloudaicompanion.iam.gserviceaccount.com"
+            ],
+            "role": "roles/cloudaicompanion.serviceAgent"
+          },
+          {
+            "members": [
+              "user:pxndaxan@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwZA0jA6vh4=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "-qwstsmegmep2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:56.051322Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-10T18:35:57.941068494Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:15c:9ba0:0:0:664:fdf9",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141.0.7390.69 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-10-10T18:35:57.871508087Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudaicompanion.googleapis.com",
+      "methodName": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateSettingBinding",
+      "authorizationInfo": [
+        {
+          "resource": "projects/global-pagoda-472813-c0/locations/global/dataSharingWithGoogleSettings/global-pagoda-472813-c0",
+          "permission": "cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsCreate",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/global-pagoda-472813-c0",
+          "permission": "cloudaicompanion.settingBindings.dataSharingWithGoogleSettingsUse",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/locations/global/dataSharingWithGoogleSettings/global-pagoda-472813-c0",
+      "request": {
+        "settingBindingId": "global-pagoda-472813-c0",
+        "@type": "type.googleapis.com/google.cloud.cloudaicompanion.v1.CreateSettingBindingRequest",
+        "parent": "projects/global-pagoda-472813-c0/locations/global/dataSharingWithGoogleSettings/global-pagoda-472813-c0"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "pajedgcdo8",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "cloudaicompanion.googleapis.com",
+        "project_id": "global-pagoda-472813-c0",
+        "method": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateSettingBinding"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:57.845999564Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/global-pagoda-472813-c0/locations/global/operations/operation-1760121357927-640d2304d04cc-1c9fa689-1cce3e27",
+      "producer": "cloudaicompanion.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-10-10T18:35:58.381280777Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudaicompanion.googleapis.com",
+      "methodName": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateSettingBinding",
+      "resourceName": "projects/global-pagoda-472813-c0/locations/global/dataSharingWithGoogleSettings/global-pagoda-472813-c0/settingBindings/global-pagoda-472813-c0",
+      "response": {
+        "@type": "type.googleapis.com/google.cloud.cloudaicompanion.v1main.SettingBinding"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "2jgoztb26",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "cloudaicompanion.googleapis.com",
+        "project_id": "global-pagoda-472813-c0",
+        "method": "google.cloud.cloudaicompanion.v1.DataSharingWithGoogleSettingService.CreateSettingBinding"
+      }
+    },
+    "timestamp": "2025-10-10T18:35:59.006600893Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/global-pagoda-472813-c0/locations/global/operations/operation-1760121357927-640d2304d04cc-1c9fa689-1cce3e27",
+      "producer": "cloudaicompanion.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-10-10T18:35:59.425174839Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:150:32d6:0:0:465:eab4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/389.2.814818472 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774/services/recaptchaenterprise.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/recaptchaenterprise.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/services/recaptchaenterprise.googleapis.com",
+      "request": {
+        "name": "projects/global-pagoda-472813-c0/services/recaptchaenterprise.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "6eyedwd33sp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "global-pagoda-472813-c0",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2025-10-11T01:06:01.051526Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1041769904774-88dfbee4-0d0d-40f2-9e05-a21a694ad951",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2025-10-11T01:06:01.834841156Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:150:32d6:0:0:465:eab4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/389.2.814818472 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1041769904774/operations/acat.p2-1041769904774-88dfbee4-0d0d-40f2-9e05-a21a694ad951"
+    },
+    "insertId": "17kzzkje1bvll",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "global-pagoda-472813-c0",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-10-11T01:06:01.583112Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-11T01:06:02.116878101Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:150:32d6:0:0:465:eab4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/389.2.814818472 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774/services/recaptchaenterprise.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/recaptchaenterprise.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/services/recaptchaenterprise.googleapis.com",
+      "request": {
+        "name": "projects/global-pagoda-472813-c0/services/recaptchaenterprise.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/1041769904774/services/recaptchaenterprise.googleapis.com",
+          "config": {
+            "name": "recaptchaenterprise.googleapis.com",
+            "title": "reCAPTCHA Enterprise API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/1041769904774"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-fh07hte7j2dq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-11T01:06:03.509612960Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-1041769904774-88dfbee4-0d0d-40f2-9e05-a21a694ad951",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2025-10-11T01:06:03.509612960Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:150:32d6:0:0:465:eab4",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/389.2.814818472 Mobile/15E148 Safari/604.1,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/1041769904774/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/1041769904774",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/1041769904774/operations/acat.p2-1041769904774-88dfbee4-0d0d-40f2-9e05-a21a694ad951"
+    },
+    "insertId": "1y9cnt8e1qsn3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "global-pagoda-472813-c0",
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2025-10-11T01:06:04.851133Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-11T01:06:05.832377711Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "pxndaxan@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2604:ca00:158:10d9:0:0:466:1a6",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/141 Version/11.1.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2025-10-12T09:55:02.885372801Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "logging.googleapis.com",
+      "methodName": "google.logging.v2.ConfigServiceV2.CreateSink",
+      "authorizationInfo": [
+        {
+          "resource": "projects/global-pagoda-472813-c0/sinks/StarMechanicLLC",
+          "permission": "logging.sinks.create",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "logging.googleapis.com",
+            "name": "projects/global-pagoda-472813-c0/sinks/StarMechanicLLC",
+            "type": "logging.googleapis.com/LogSink"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0/sinks/StarMechanicLLC",
+      "request": {
+        "uniqueWriterIdentity": true,
+        "sink": {
+          "filter": "(logName = \"projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity\" OR logName = \"projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Fdata_access\" OR labels.activity_type_name:*)",
+          "destination": "logging.googleapis.com/projects/data-infinity-473520-u0",
+          "name": "StarMechanicLLC"
+        },
+        "@type": "type.googleapis.com/google.logging.v2.CreateSinkRequest",
+        "parent": "projects/global-pagoda-472813-c0"
+      }
+    },
+    "insertId": "zkxxg3d4cl1",
+    "resource": {
+      "type": "logging_sink",
+      "labels": {
+        "project_id": "global-pagoda-472813-c0",
+        "destination": "",
+        "name": "StarMechanicLLC"
+      }
+    },
+    "timestamp": "2025-10-12T09:55:02.867552311Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-12T09:55:05.242003019Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/global-pagoda-472813-c0",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/global-pagoda-472813-c0",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/global-pagoda-472813-c0",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/global-pagoda-472813-c0",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/global-pagoda-472813-c0",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/logging.serviceAgent",
+              "member": "serviceAccount:service-1041769904774@gcp-sa-logging.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "1041769904774",
+        "policy": {
+          "bindings": [
+            {
+              "role": "roles/cloudaicompanion.serviceAgent",
+              "members": [
+                "serviceAccount:service-1041769904774@gcp-sa-cloudaicompanion.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "user:pxndaxan@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:100995837434156103412"
+              ],
+              "role": "roles/logging.serviceAgent"
+            }
+          ],
+          "etag": "BwZA0jA6vh4="
+        }
+      },
+      "response": {
+        "etag": "BwZA8yUkZLE=",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-1041769904774@gcp-sa-cloudaicompanion.iam.gserviceaccount.com"
+            ],
+            "role": "roles/cloudaicompanion.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:service-1041769904774@gcp-sa-logging.iam.gserviceaccount.com"
+            ],
+            "role": "roles/logging.serviceAgent"
+          },
+          {
+            "members": [
+              "user:pxndaxan@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "smdt40e1g0au",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "global-pagoda-472813-c0"
+      }
+    },
+    "timestamp": "2025-10-12T09:55:03.958895Z",
+    "severity": "NOTICE",
+    "logName": "projects/global-pagoda-472813-c0/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2025-10-12T09:55:05.672360509Z"
+  }
+]
